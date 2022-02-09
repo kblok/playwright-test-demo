@@ -5,6 +5,7 @@ on:
       - '*'
 jobs:
   test:
+    runs-on: ubuntu-18.04 # LTS EoL Apr 2023
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
